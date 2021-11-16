@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML form</title>
+    <style>
+        .description{resize: none; height: 300px; width: 500px;}
+    </style>
+</head>
+<body>
+    <form>
+        First Name: <input type = "text" maxlength="5">
+        <br><br>
+        Last Name: <input type = "text" name="last_name" maxlength="5">
+        <br><br>
+        Password: <input type="password" name="password">
+        <br><br>
+        <textarea class="description">
+            Enter description here...
+        </textarea>
+        <br><br>
+        Date Of Birth: <input type = "date" name="DOB">
+        <br><br>
+        Email: <input type="email" name="email">
+        <br><br>
+        Checkbox Controls:
+        <input type="checkbox" name="maths" value="on">maths
+        <input type="checkbox" name="phy" value="on">phy
+        <br><br>
+        Radio Button Controls:
+        <input type="radio" name="subject" value="none" checked>none
+        <input type="radio" name="subject" value="maths">maths
+        <input type="radio" name="subject" value="phy">phy
+        <input type="radio" name="subject" value="chem">chem
+        <br><br>
+        <input type="submit">
+        <input type="reset">
+    </form>
+    
+</body>
+</html>
